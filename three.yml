@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: cont-2
-        image: yeasy/simple-web
+        image: nageena1608/dockerimage
         ports:
         - containerPort: 80
         env:
