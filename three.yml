@@ -26,7 +26,7 @@ kind: Service
 metadata:
   name: svc3
 spec:
-  type: clusterIp
+  type: ClusterIp
   ports:
   - port: 80
   selector:
